@@ -19,7 +19,7 @@ function Navbar() {
                         <div className="flex gap-2 items-center sm:justify-start justify-center">
                             {/* The Icon */}
                             <div style={backgroundColorStyle} className="p-2 rounded-md">
-                                <FaLeaf />
+                                <FaLeaf size={20} />
                             </div>
                             {/* The Name of the app */}
                             <span style={{ color: "#d90429" }} className="font-bold text-maincolor">

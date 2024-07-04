@@ -11,7 +11,7 @@ function HeroSection() {
                 control of your day and achieve your goals.
             </p>
             <button className="block text-sm font-light rounded-lg transition bg-customRed focus:outline-none px-9 py-3 text-white  font-light rounded-lg" type="button">
-                Let's get started!
+                Let&apos;s get started!
             </button>
         </div>
     );
