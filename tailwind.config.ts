@@ -4,17 +4,26 @@ const config: Config = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./icons/*.ice",
+    "./globals.css",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./layout/**/*.tsx",
+    "./page.tsx"
   ],
   theme: {
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "gradient-conic": "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))"
       },
-    },
+      colors: {
+        customRed: "#d90429"
+      }
+    }
   },
-  plugins: [],
+  plugins: [
+    // add your Tailwind CSS plugins here
+  ]
 };
+
 export default config;
