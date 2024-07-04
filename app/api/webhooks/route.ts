@@ -66,10 +66,9 @@ export async function POST(req: Request) {
             await connectToDB()
             await User.create(newUser)
             console.log('User created');
-
+            return Response.json({ message: 'Received' })
         } catch (error) {
             console.log(error);
-
         }
 
 
